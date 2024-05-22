@@ -13,6 +13,13 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                'roboto': '"Roboto", sans-serif', 
+            },
+
+            backgroundImage:{
+                'menu-icon': "url('/public/images/site-icons/menu.svg')",
+                'close-icon': "url('/public/images/site-icons/close.svg')",
+                
             },
         },
     },
